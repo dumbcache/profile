@@ -1,22 +1,15 @@
 <script>
-    import { locationIcon1, locationIcon2 } from "./components/Images.svelte";
-
+    import Contact from "./components/Contact.svelte";
     import TechStack from "./components/TechStack.svelte";
+    import Intro from "./components/Intro.svelte";
+    import About from "./components/About.svelte";
 </script>
 
 <main>
-    <p>profile</p>
-    <img
-        src="https://avatars.githubusercontent.com/u/50919263?v=4"
-        alt="profile pic"
-        width="100"
-        height="100"
-    />
-    <div>
-        {@html locationIcon1()}
-    </div>
-
+    <Intro />
     <TechStack />
+    <About />
+    <Contact />
 </main>
 
 <style>
