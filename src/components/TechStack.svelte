@@ -3,10 +3,10 @@
 </script>
 
 <div class="techstack-wrapper">
-    <h1 class="title">Tech Knowledge</h1>
+    <!-- <h1 class="title">Tech Knowledge</h1> -->
     <div class="stack">
         {#each Icons as icon}
-            <span>{@html icon()}</span>
+            <span class="skill">{@html icon()}</span>
         {/each}
     </div>
 </div>
@@ -25,9 +25,13 @@
         /* background-color: #fff; */
         border: 1px solid #000;
         width: fit-content;
+        margin: auto;
     }
     .stack :global(svg) {
         width: 60px;
         height: auto;
+    }
+    skill {
+        width: max-content;
     }
 </style>

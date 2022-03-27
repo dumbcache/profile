@@ -1,30 +1,53 @@
+<script>
+    import {
+        linkedInIcon,
+        emailIcon,
+        twitterIcon,
+        instagramIcon,
+    } from "./Images.svelte";
+</script>
+
 <div class="contact-wrapper">
     <h1 class="title">Contact</h1>
-    <input type="text" placeholder="your name" />
-    <input type="email" placeholder="your email" />
-    <input type="text" placeholder="message" />
+    <p>you can drop a mail here</p>
+    <div class="email">
+        {@html emailIcon()}
+        <a href="mailto:dumbcache@gmail.com"> dumbcache@gmail.com </a>
+    </div>
+    <p>you can contact me on any of these social platforms</p>
+    <div>
+        <a href="https://twitter.com/yesu4658" target="_blank"
+            >{@html twitterIcon()}</a
+        >
+        <a href="https://www.linkedin.com/in/yesu4658/" target="_blank"
+            >{@html linkedInIcon()}</a
+        >
+        <a href="https://www.instagram.com/yesu4658/" target="_blank"
+            >{@html instagramIcon()}</a
+        >
+    </div>
 </div>
 
 <style>
     .contact-wrapper {
-        border: 1px solid #fff;
+        border: 1px solid #000;
         margin-top: 4rem;
     }
-    .title {
+    h1 {
         text-align: center;
     }
-    input {
-        display: block;
-        font-family: inherit;
-        outline: none;
-        padding: 0.5rem;
-        border-radius: 0.5rem;
-        border: 1px solid white;
-        margin-bottom: 0.5rem;
-        /* background: #999; */
-        max-width: 100%;
+    a,
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: inherit;
     }
-    input:-webkit-autofill {
-        background: #fff !important;
+    .email {
+        display: flex;
+        align-items: center;
+        border: 1px solid #000;
+        width: fit-content;
+        padding: 0.5rem;
     }
 </style>

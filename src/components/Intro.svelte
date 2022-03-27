@@ -12,8 +12,8 @@
         {@html locationIcon1()} Vijayawada, India
     </div>
     <p class="intro">
-        `` I'm a computer science graduate.I started my career aiming to become
-        web and mobile application developer. I feel coding very fun. ``
+        `` I'm a computer science graduate aspiring to become web and mobile
+        application developer. Coding is fun for me ``
     </p>
 </div>
 
