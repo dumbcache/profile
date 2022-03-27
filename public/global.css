@@ -14,7 +14,6 @@ body {
     font-family: poppins, sans-serif;
     padding: 0rem 1rem;
     /* font-weight: 400; */
-    /* background-image: linear-gradient(#fff, #000, #ddd); */
     scroll-behavior: smooth;
 }
 
@@ -34,7 +33,7 @@ a:active {
 
 h1 {
     /* font-family: poiret one; */
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 900;
-    color: #222;
+    color: #444;
 }
