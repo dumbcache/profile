@@ -4,19 +4,19 @@
         emailIcon,
         twitterIcon,
         instagramIcon,
-    } from "./Images.svelte";
+    } from "./Icons.svelte";
 </script>
 
-<div class="contact-wrapper">
+<div id="contact" class="contact-wrapper">
     <h1 class="title">Contact</h1>
-    <p>you can drop a mail here</p>
+    <p class="p1">you can drop a mail here</p>
     <a href="mailto:dumbcache@gmail.com">
         <div class="email">
             {@html emailIcon()}
             dumbcache@gmail.com
         </div>
     </a>
-    <p>you can contact me on any of these social platforms</p>
+    <p class="p2">message me through</p>
     <div class="social">
         <a href="https://twitter.com/yesu4658" target="_blank"
             >{@html twitterIcon()}</a
@@ -34,6 +34,10 @@
     .contact-wrapper {
         border: 1px solid #000;
         margin-top: 4rem;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        padding: 1rem;
     }
     h1 {
         text-align: center;
@@ -51,13 +55,24 @@
         border: 1px solid #000;
         width: fit-content;
         padding: 0.5rem;
+        border-radius: 1rem;
     }
     .email :global(svg) {
         width: 40px;
         height: auto;
+        padding: 0rem 0.2rem;
+        margin: 0rem 0.2rem;
     }
     .social :global(svg) {
         width: 40px;
         height: auto;
+    }
+    .title {
+    }
+    .p1 {
+        margin: 1rem 0rem;
+    }
+    .p2 {
+        margin: 1rem 0rem;
     }
 </style>

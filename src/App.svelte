@@ -3,9 +3,11 @@
     import TechStack from "./components/TechStack.svelte";
     import Intro from "./components/Intro.svelte";
     import About from "./components/About.svelte";
+    import Header from "./components/Header.svelte";
 </script>
 
 <main>
+    <Header />
     <Intro />
     <TechStack />
     <About />
@@ -13,7 +15,7 @@
 </main>
 
 <style>
-    @media (min-width: 640px) {
+    @media (max-width: 640px) {
         main {
             max-width: none;
         }

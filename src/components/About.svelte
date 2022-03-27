@@ -1,4 +1,4 @@
-<div class="about-wrapper">
+<div id="about" class="about-wrapper">
     <h1 class="title">MySelf</h1>
     <div class="body">
         <img
@@ -24,6 +24,7 @@
         margin-top: 4rem;
     }
     .title {
+        padding-top: 6rem;
         text-align: center;
     }
     img {

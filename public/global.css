@@ -15,4 +15,10 @@ body {
     padding: 1rem;
     /* font-weight: 400; */
     /* background-image: linear-gradient(#fff, #000, #ddd); */
+    scroll-behavior: smooth;
+}
+@media (max-width: 640px) {
+    body {
+        padding: 0.2rem;
+    }
 }

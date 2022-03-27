@@ -1,8 +1,8 @@
 <script>
-    import { locationIcon1 } from "./Images.svelte";
+    import { locationIcon1 } from "./Icons.svelte";
 </script>
 
-<div class="intro-wrapper">
+<div id="intro" class="intro-wrapper">
     <div class="name">Yesu G,</div>
     <div class="profession">
         <div>Web</div>
@@ -26,6 +26,7 @@
         font-size: 4vw;
         font-weight: 700;
         font-family: poiret one;
+        padding-top: 6rem;
     }
     .profession {
         font-size: 10vw;
