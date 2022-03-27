@@ -32,6 +32,5 @@
         height: auto;
     }
     skill {
-        width: max-content;
     }
 </style>

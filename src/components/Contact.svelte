@@ -15,7 +15,7 @@
         <a href="mailto:dumbcache@gmail.com"> dumbcache@gmail.com </a>
     </div>
     <p>you can contact me on any of these social platforms</p>
-    <div>
+    <div class="social">
         <a href="https://twitter.com/yesu4658" target="_blank"
             >{@html twitterIcon()}</a
         >
@@ -49,5 +49,13 @@
         border: 1px solid #000;
         width: fit-content;
         padding: 0.5rem;
+    }
+    .email :global(svg) {
+        width: 40px;
+        height: auto;
+    }
+    .social :global(svg) {
+        width: 40px;
+        height: auto;
     }
 </style>
