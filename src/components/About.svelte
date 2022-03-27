@@ -20,7 +20,7 @@
 
 <style>
     .about-wrapper {
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
         margin-top: 4rem;
     }
     .title {

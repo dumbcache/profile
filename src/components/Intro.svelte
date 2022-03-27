@@ -19,18 +19,22 @@
 
 <style>
     .intro-wrapper {
-        border: 1px solid #000;
-        margin-top: 1rem;
+        /* border: 1px solid #000; */
+        /* margin-top: 1rem; */
+        padding: 1rem;
     }
     .name {
         font-size: 4vw;
         font-weight: 700;
         font-family: poiret one;
         padding-top: 6rem;
+        user-select: none;
+        margin-bottom: 1rem;
     }
     .profession {
         font-size: 10vw;
         font-weight: 900;
+        user-select: none;
     }
     .name,
     .profession {
@@ -43,5 +47,14 @@
         display: flex;
         margin: 1rem 0rem;
         align-items: center;
+    }
+
+    @media (max-width: 640px) {
+        .name {
+            font-size: 5vmax;
+        }
+        .profession {
+            font-size: 7vmax;
+        }
     }
 </style>

@@ -9,14 +9,14 @@
 
 <div id="contact" class="contact-wrapper">
     <h1 class="title">Contact</h1>
-    <p class="p1">you can drop a mail here</p>
+    <p class="p1">you can drop a mail to</p>
     <a href="mailto:dumbcache@gmail.com">
         <div class="email">
             {@html emailIcon()}
             dumbcache@gmail.com
         </div>
     </a>
-    <p class="p2">message me through</p>
+    <p class="p2">get in touch through</p>
     <div class="social">
         <a href="https://twitter.com/yesu4658" target="_blank"
             >{@html twitterIcon()}</a
@@ -32,23 +32,18 @@
 
 <style>
     .contact-wrapper {
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
         margin-top: 4rem;
         display: flex;
         flex-flow: column;
         align-items: center;
         padding: 1rem;
+        margin-bottom: 10rem;
     }
     h1 {
         text-align: center;
     }
-    a,
-    a:link,
-    a:visited,
-    a:active {
-        text-decoration: none;
-        color: inherit;
-    }
+
     .email {
         display: flex;
         align-items: center;
@@ -68,6 +63,7 @@
         height: auto;
     }
     .title {
+        /* margin-bottom: 2rem; */
     }
     .p1 {
         margin: 1rem 0rem;

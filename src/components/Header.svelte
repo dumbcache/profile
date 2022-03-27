@@ -2,7 +2,7 @@
     <a href="#intro">
         <div>Home</div>
     </a>
-    <a href="#tech">
+    <a href="#skills">
         <div>Skills</div>
     </a>
     <a href="#about">
@@ -21,8 +21,9 @@
         left: 0px;
         width: 100%;
         justify-content: space-around;
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
         padding: 2rem;
         background-color: #fff;
+        /* opacity: 0.9; */
     }
 </style>
