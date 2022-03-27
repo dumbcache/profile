@@ -10,10 +10,12 @@
 <div class="contact-wrapper">
     <h1 class="title">Contact</h1>
     <p>you can drop a mail here</p>
-    <div class="email">
-        {@html emailIcon()}
-        <a href="mailto:dumbcache@gmail.com"> dumbcache@gmail.com </a>
-    </div>
+    <a href="mailto:dumbcache@gmail.com">
+        <div class="email">
+            {@html emailIcon()}
+            dumbcache@gmail.com
+        </div>
+    </a>
     <p>you can contact me on any of these social platforms</p>
     <div class="social">
         <a href="https://twitter.com/yesu4658" target="_blank"
