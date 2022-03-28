@@ -38,7 +38,7 @@
         flex-flow: column;
         align-items: center;
         padding: 1rem;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
     h1 {
         padding-top: 4rem;

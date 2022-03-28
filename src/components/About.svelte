@@ -81,7 +81,7 @@
         width: 40px;
         height: auto;
     }
-    @media (max-width: 640px) {
+    @media (max-width: 800px) {
         .body {
             flex-flow: row wrap;
         }
