@@ -38,9 +38,10 @@
         flex-flow: column;
         align-items: center;
         padding: 1rem;
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
     }
     h1 {
+        padding-top: 4rem;
         text-align: center;
     }
 
@@ -62,9 +63,7 @@
         width: 40px;
         height: auto;
     }
-    .title {
-        /* margin-bottom: 2rem; */
-    }
+
     .p1 {
         margin: 1rem 0rem;
     }

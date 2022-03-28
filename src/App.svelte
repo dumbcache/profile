@@ -4,6 +4,7 @@
     import Intro from "./components/Intro.svelte";
     import About from "./components/About.svelte";
     import Header from "./components/Header.svelte";
+    import Foot from "./components/Foot.svelte";
 </script>
 
 <main>
@@ -12,6 +13,7 @@
     <TechStack />
     <About />
     <Contact />
+    <Foot />
 </main>
 
 <style>

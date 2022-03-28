@@ -51,7 +51,7 @@
 
     @media (max-width: 640px) {
         .name {
-            font-size: 5vmax;
+            font-size: 6vmax;
         }
         .profession {
             font-size: 7vmax;
