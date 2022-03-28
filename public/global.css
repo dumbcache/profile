@@ -24,6 +24,9 @@ a:active {
     text-decoration: none;
     color: inherit;
 }
+a:hover {
+    color: #00f;
+}
 
 @media (max-width: 640px) {
     body {

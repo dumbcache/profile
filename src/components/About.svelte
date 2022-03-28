@@ -1,7 +1,11 @@
+<script>
+    import { Icons } from "./Icons.svelte";
+</script>
+
 <div id="about" class="about-wrapper">
     <h1 class="title">MySelf</h1>
     <div class="body">
-        <div>
+        <div class="head">
             <img
                 src="https://media-exp1.licdn.com/dms/image/D5603AQGynCfnn7fh3Q/profile-displayphoto-shrink_800_800/0/1648303778377?e=1653523200&v=beta&t=VT6eTL2Swg2vvOxYXVzt76-5EwOjDqY3-792he4jgjc"
                 alt="profile pic"
@@ -29,6 +33,16 @@
                 From then, I started learning the core of the web fundamentals.
                 I work on both UI and Backend API's.
             </p>
+            <p>
+                View my projects <a
+                    href="https://github.com/yesu4658"
+                    target="_blank"
+                >
+                    here<sub>
+                        {@html Icons.github()}
+                    </sub>
+                </a>
+            </p>
         </div>
     </div>
 </div>
@@ -38,6 +52,7 @@
         /* border: 1px solid #000; */
         margin-top: 4rem;
     }
+
     .title {
         padding-top: 6rem;
         text-align: center;
@@ -61,6 +76,10 @@
     }
     p {
         margin-bottom: 0.5rem;
+    }
+    sub :global(svg) {
+        width: 40px;
+        height: auto;
     }
     @media (max-width: 640px) {
         .body {
