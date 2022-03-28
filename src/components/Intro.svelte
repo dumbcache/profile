@@ -13,7 +13,7 @@
     </div>
     <p class="intro">
         `` I'm a computer science graduate aspiring to become web and mobile
-        application developer. Coding is fun for me ``
+        application developer ``
     </p>
 </div>
 

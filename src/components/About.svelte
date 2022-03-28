@@ -1,20 +1,35 @@
 <div id="about" class="about-wrapper">
     <h1 class="title">MySelf</h1>
     <div class="body">
-        <img
-            src="https://media-exp1.licdn.com/dms/image/D5603AQGynCfnn7fh3Q/profile-displayphoto-shrink_800_800/0/1648303778377?e=1653523200&v=beta&t=VT6eTL2Swg2vvOxYXVzt76-5EwOjDqY3-792he4jgjc"
-            alt="profile pic"
-        />
-        <p class="info">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
-            commodi necessitatibus repellendus tempore aspernatur dignissimos
-            fugiat laudantium quidem quis laborum placeat, accusantium alias
-            omnis voluptatum architecto. Praesentium ut officia maiores.
-            Similique asperiores error ea doloribus mollitia, odio, natus sed
-            dolore modi architecto quam. Possimus eligendi quis, vel aut
-            incidunt odio natus molestias nulla ipsum at suscipit id cumque
-            dolorum. Laborum dolores,
-        </p>
+        <div>
+            <img
+                src="https://media-exp1.licdn.com/dms/image/D5603AQGynCfnn7fh3Q/profile-displayphoto-shrink_800_800/0/1648303778377?e=1653523200&v=beta&t=VT6eTL2Swg2vvOxYXVzt76-5EwOjDqY3-792he4jgjc"
+                alt="profile pic"
+            />
+            <!-- <p>Yesu Gudi</p>
+            <p>2years experience</p> -->
+            <!-- <p>`` coding is fun 😁 ``</p> -->
+        </div>
+
+        <div class="info">
+            <p>Hey there👋, Yesu here</p>
+            <p>
+                I am Computer Science B.Tech graduate🧑‍🎓 from Vijayawada,
+                India. Currently working as software associate <small>
+                    (still web deveolper to core).
+                </small>
+            </p>
+            <p>
+                I got interest in Web Development during the final year of my
+                B.Tech. I am impressed and ashtonished by the web and how it
+                works and hooked onto a single thought that " I should definetly
+                choose this as my career".
+            </p>
+            <p>
+                From then, I started learning the core of the web fundamentals.
+                I work on both UI and Backend API's.
+            </p>
+        </div>
     </div>
 </div>
 
@@ -41,6 +56,12 @@
         padding: 1rem;
     }
 
+    small {
+        color: #444;
+    }
+    p {
+        margin-bottom: 0.5rem;
+    }
     @media (max-width: 640px) {
         .body {
             flex-flow: row wrap;
