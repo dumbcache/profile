@@ -18,14 +18,11 @@
     </a>
     <p class="p2">get in touch through</p>
     <div class="social">
-        <a href="https://twitter.com/yesu4658" target="_blank"
-            >{@html twitterIcon()}</a
-        >
-        <a href="https://www.linkedin.com/in/yesu4658/" target="_blank"
+        <a href="https://twitter.com/yesu4658">{@html twitterIcon()}</a>
+        <a href="https://www.linkedin.com/in/yesu4658/"
             >{@html linkedInIcon()}</a
         >
-        <a href="https://www.instagram.com/yesu4658/" target="_blank"
-            >{@html instagramIcon()}</a
+        <a href="https://www.instagram.com/yesu4658/">{@html instagramIcon()}</a
         >
     </div>
 </div>

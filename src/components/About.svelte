@@ -34,10 +34,7 @@
                 I work on both UI and Backend API's.
             </p>
             <p>
-                View my projects <a
-                    href="https://github.com/yesu4658"
-                    target="_blank"
-                >
+                View my projects <a href="https://github.com/yesu4658">
                     here<sub>
                         {@html Icons.github()}
                     </sub>
@@ -80,6 +77,9 @@
     sub :global(svg) {
         width: 40px;
         height: auto;
+    }
+    a {
+        color: blue;
     }
     @media (max-width: 800px) {
         .body {
