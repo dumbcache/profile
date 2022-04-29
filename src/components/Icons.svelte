@@ -248,9 +248,9 @@
         react: reactIcon,
         svelte: svelteIcon,
         javascript: jsIcon,
-        // go: goIcon,
+         go: goIcon,
         docker: dockerIcon,
-        linux: linuxIcon,
+       // linux: linuxIcon,
         git: gitIcon,
         github: githubIcon,
     };
