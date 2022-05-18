@@ -7,7 +7,7 @@
     <div class="body">
         <div class="head">
             <img
-                src="https://media-exp1.licdn.com/dms/image/D5603AQGynCfnn7fh3Q/profile-displayphoto-shrink_800_800/0/1648303778377?e=1653523200&v=beta&t=VT6eTL2Swg2vvOxYXVzt76-5EwOjDqY3-792he4jgjc"
+                src="https://avatars.githubusercontent.com/u/50919263?s=400&u=5167c33c2e979e35eff039c194361c5e1411d237&v=4"
                 alt="profile pic"
             />
             <!-- <p>Yesu Gudi</p>
