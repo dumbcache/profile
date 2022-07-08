@@ -1,15 +1,24 @@
 <script>
     import { Icons } from "./Icons.svelte";
+    let profilePic;
+    (async () => {
+        let req = await fetch("https://api.github.com/users/dumbcache");
+        let data = await req.json();
+        profilePic = data["avatar_url"];
+    })();
 </script>
 
 <div id="about" class="about-wrapper">
     <h1 class="title">MySelf</h1>
     <div class="body">
         <div class="head">
-            <img
+            {#if profilePic}
+                <img src={profilePic} alt="profile pic" />
+            {/if}
+            <!-- <img
                 src="https://media-exp1.licdn.com/dms/image/D5603AQGynCfnn7fh3Q/profile-displayphoto-shrink_800_800/0/1648303778377?e=1653523200&v=beta&t=VT6eTL2Swg2vvOxYXVzt76-5EwOjDqY3-792he4jgjc"
                 alt="profile pic"
-            />
+                /> -->
             <!-- <p>Yesu Gudi</p>
             <p>2years experience</p> -->
             <!-- <p>`` coding is fun 😁 ``</p> -->
@@ -34,7 +43,7 @@
                 I work on both UI and Backend API's.
             </p>
             <p>
-                View my projects <a href="https://github.com/yesu4658">
+                View my projects <a href="https://github.com/dumbcache">
                     here<sub>
                         {@html Icons.github()}
                     </sub>
