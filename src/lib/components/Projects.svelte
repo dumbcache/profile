@@ -88,6 +88,9 @@
     h5 {
         text-decoration: underline;
     }
+    ul {
+        padding-left: 1.5rem;
+    }
 
     @media (max-width: 600px) {
         .content {
