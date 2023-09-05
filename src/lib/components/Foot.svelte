@@ -17,8 +17,7 @@
 <style>
     .footer-wrapper {
         text-align: center;
-        /* margin-bottom: 4rem; */
-        /* color: #000; */
+        font-size: 1.5rem;
     }
     small {
         font-size: xx-small;

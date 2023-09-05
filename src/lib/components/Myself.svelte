@@ -53,7 +53,7 @@
         line-height: 1.5;
     }
     img {
-        width: 300px;
+        width: 30rem;
         border-radius: 50%;
     }
 
@@ -68,7 +68,7 @@
     }
 
     sub :global(svg) {
-        width: 40px;
+        width: 4rem;
         height: auto;
     }
     a {

@@ -43,13 +43,13 @@
         border-radius: 1rem;
     }
     .email :global(svg) {
-        width: 40px;
+        width: 4rem;
         height: auto;
         padding: 0rem 0.2rem;
         margin: 0rem 0.2rem;
     }
     .social :global(svg) {
-        width: 40px;
+        width: 4rem;
         height: auto;
     }
     .content {

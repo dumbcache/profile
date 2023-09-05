@@ -26,7 +26,7 @@
     }
 
     .skill {
-        width: 150px;
+        width: 15rem;
         text-align: center;
         padding: 1rem;
     }
@@ -37,7 +37,7 @@
     }
     @media (max-width: 640px) {
         .skill {
-            width: 100px;
+            width: 9rem;
         }
     }
 </style>
