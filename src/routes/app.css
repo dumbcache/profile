@@ -30,12 +30,6 @@ a:hover {
     color: #00f;
 }
 
-@media (max-width: 640px) {
-    body {
-        padding: 0.2rem;
-    }
-}
-
 h1,
 h3,
 h5 {
@@ -65,5 +59,8 @@ h5 {
 @media (max-width: 600px) {
     h1 {
         padding-bottom: 3rem;
+    }
+    .section {
+        padding-top: 7rem;
     }
 }

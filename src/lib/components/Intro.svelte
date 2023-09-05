@@ -57,6 +57,9 @@
         .name {
             font-size: 6vmax;
         }
+        .section {
+            padding-top: 10rem;
+        }
         .profession {
             font-size: 7vmax;
         }
