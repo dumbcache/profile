@@ -30,13 +30,10 @@
                 I got interest in Web Development during the final year of my
                 B.Tech. I am impressed and ashtonished by the web and how it
                 works and hooked onto a single thought that "I should definetly
-                choose this as my career".
+                choose this as my career". From then, I started learning Web.
             </p>
             <br />
-            <p>
-                From then, I started learning Web. I work on both UI and Backend
-                API's.
-            </p>
+            <p>I work on both UI and Backend API's.</p>
             <p>
                 View my projects <a href="https://github.com/dumbcache">
                     here<sub>

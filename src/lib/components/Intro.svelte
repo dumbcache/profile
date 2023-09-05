@@ -27,12 +27,15 @@
 </section>
 
 <style>
+    .section {
+        padding-top: 15rem;
+    }
     .name {
         font-size: 4vw;
         font-weight: 700;
         font-family: poiret one;
         margin-bottom: 1rem;
-        padding-bottom: 0;
+        padding-bottom: 0rem;
         text-align: start;
     }
     .profession {
@@ -58,13 +61,13 @@
 
     @media (max-width: 640px) {
         .name {
-            font-size: 6vmax;
+            font-size: max(6vmax, 4vw);
         }
         .section {
             padding-top: 10rem;
         }
         .profession {
-            font-size: 7vmax;
+            font-size: max(7vmax, 10vw);
         }
     }
 </style>
