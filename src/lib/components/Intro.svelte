@@ -3,7 +3,7 @@
     import experienceIcon from "$lib/assets/experience.png";
 </script>
 
-<section id="intro" class="intro-wrapper section">
+<section id="home" class="intro-wrapper section">
     <header>
         <h1 class="name">Yesu G,</h1>
         <h2 class="profession">

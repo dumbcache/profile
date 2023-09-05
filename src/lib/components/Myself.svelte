@@ -29,7 +29,7 @@
             <p>
                 I got interest in Web Development during the final year of my
                 B.Tech. I am impressed and ashtonished by the web and how it
-                works and hooked onto a single thought that " I should definetly
+                works and hooked onto a single thought that "I should definetly
                 choose this as my career".
             </p>
             <br />

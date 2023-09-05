@@ -1,6 +1,6 @@
 <header class="header">
     <nav class="navigation">
-        <a href="#intro">
+        <a href="#home">
             <div>Home</div>
         </a>
         <a href="#skills">
