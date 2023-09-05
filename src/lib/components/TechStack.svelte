@@ -2,7 +2,7 @@
     import { Icons } from "./Icons.svelte";
 </script>
 
-<section id="skills" class="techstack-wrapper">
+<section id="skills" class="techstack-wrapper section">
     <header>
         <h1 class="title">Skills</h1>
     </header>
@@ -19,11 +19,6 @@
 </section>
 
 <style>
-    .techstack-wrapper {
-        margin-top: 4rem;
-        /* border: 1px solid #000; */
-    }
-
     .stack {
         display: flex;
         flex-flow: row wrap;
@@ -39,11 +34,6 @@
     .skill :global(svg) {
         width: 100%;
         height: inherit;
-    }
-    .title {
-        padding-top: 6rem;
-        text-align: center;
-        margin-bottom: 2rem;
     }
     @media (max-width: 640px) {
         .skill {

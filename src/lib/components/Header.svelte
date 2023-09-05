@@ -31,11 +31,12 @@
     .navigation {
         display: flex;
         justify-content: space-around;
-        /* border: 1px solid #000; */
-        padding: 2rem;
-        /* opacity: 0.9; */
+        padding: 2rem 0rem;
     }
 
     @media (max-width: 600px) {
+        .header {
+            font-size: 1.3rem;
+        }
     }
 </style>

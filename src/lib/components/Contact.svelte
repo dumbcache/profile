@@ -7,13 +7,13 @@
     } from "./Icons.svelte";
 </script>
 
-<section id="contact" class="contact-wrapper">
+<section id="contact" class="contact-wrapper section">
     <header class="header">
         <h1 class="title">Contact</h1>
     </header>
 
     <div class="content">
-        <p class="p1">Drop me a mail here</p>
+        <p class="p1">Drop me a mail here 👇</p>
         <a href="mailto:dumbcache@gmail.com">
             <div class="email">
                 {@html emailIcon()}
@@ -34,20 +34,6 @@
 </section>
 
 <style>
-    .contact-wrapper {
-        /* border: 1px solid #000; */
-        margin-top: 4rem;
-        display: flex;
-        flex-flow: column;
-        align-items: center;
-        padding: 1rem;
-        margin-bottom: 3rem;
-    }
-    h1 {
-        padding-top: 4rem;
-        text-align: center;
-    }
-
     .email {
         display: flex;
         align-items: center;
@@ -66,6 +52,11 @@
         width: 40px;
         height: auto;
     }
+    .content {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
 
     .p1 {
         margin: 1rem 0rem;
@@ -77,6 +68,9 @@
         text-align: center;
     }
 
+    a {
+        width: fit-content;
+    }
     @media (max-width: 600px) {
         .social :global(svg) {
             width: 3rem;

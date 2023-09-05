@@ -20,9 +20,15 @@
 </main>
 
 <style>
+    main {
+        padding: 5rem;
+        padding-top: 0rem;
+    }
     @media (max-width: 640px) {
         main {
             max-width: none;
+            padding: 2rem;
+            padding-top: 0rem;
         }
     }
 </style>

@@ -15,8 +15,6 @@ html,
 body {
     font-size: 1.6rem;
 
-    padding: 0rem 1rem;
-    /* font-weight: 400; */
     scroll-behavior: smooth;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
@@ -38,15 +36,28 @@ a:hover {
     }
 }
 
-h1 {
-    /* font-family: poiret one; */
-    font-size: 3rem;
-    font-weight: 900;
-    color: #444;
-}
-
 h1,
 h3,
 h5 {
     font-family: poiret one;
+    font-weight: 900;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #444;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+.section {
+    padding-top: 10rem;
 }

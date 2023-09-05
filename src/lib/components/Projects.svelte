@@ -2,7 +2,7 @@
     import linkIcon from "$lib/assets/link.svg?raw";
 </script>
 
-<section id="projects" class="projects-wrapper">
+<section id="projects" class="projects-wrapper section">
     <header>
         <h1 class="title">Projects</h1>
     </header>
@@ -55,13 +55,15 @@
 </section>
 
 <style>
+    .section {
+        line-height: 1.5;
+    }
     h3 {
         color: #f00;
         filter: invert(0.1);
+        padding-bottom: 0.5rem;
     }
-    .projects-wrapper {
-        margin-top: 4rem;
-    }
+
     .content {
         display: flex;
         gap: 2rem;
@@ -70,10 +72,7 @@
     .article {
         padding: 1rem;
     }
-    .title {
-        padding-top: 6rem;
-        text-align: center;
-    }
+
     .icon {
         width: 2rem;
     }
@@ -87,7 +86,6 @@
         padding-top: 1rem;
     }
     h5 {
-        font-size: 2rem;
         text-decoration: underline;
     }
 

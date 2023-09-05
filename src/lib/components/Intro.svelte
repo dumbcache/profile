@@ -1,8 +1,9 @@
 <script>
     import { locationIcon1 } from "./Icons.svelte";
+    import experienceIcon from "$lib/assets/experience.png";
 </script>
 
-<section id="intro" class="intro-wrapper">
+<section id="intro" class="intro-wrapper section">
     <header>
         <h1 class="name">Yesu G,</h1>
         <h2 class="profession">
@@ -11,9 +12,13 @@
         </h2>
     </header>
     <div class="content">
-        <div class="location">
+        <p class="location">
             {@html locationIcon1()} Vijayawada, India
-        </div>
+        </p>
+        <!-- <p>
+            <img src={experienceIcon} alt="" width="30" height="30" />
+            2+ years
+        </p> -->
         <p class="intro">
             ``` I'm a computer science graduate aspiring to become web and
             mobile application developer ```
@@ -22,23 +27,17 @@
 </section>
 
 <style>
-    .intro-wrapper {
-        /* border: 1px solid #000; */
-        /* margin-top: 1rem; */
-        padding: 1rem;
-    }
     .name {
         font-size: 4vw;
         font-weight: 700;
         font-family: poiret one;
-        padding-top: 6rem;
-        user-select: none;
         margin-bottom: 1rem;
+        padding-bottom: 0;
+        text-align: start;
     }
     .profession {
         font-size: 10vw;
         font-weight: 900;
-        user-select: none;
         font-family: poppins, sans-serif;
     }
     .name,
