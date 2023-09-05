@@ -52,6 +52,9 @@
         margin: 1rem 0rem;
         align-items: center;
     }
+    .content {
+        line-height: 1.5;
+    }
 
     @media (max-width: 640px) {
         .name {
