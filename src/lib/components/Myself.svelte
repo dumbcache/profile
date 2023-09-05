@@ -1,16 +1,20 @@
 <script>
-    import { Icons } from "./Icons.svelte";
+    import { githubIcon } from "./Icons.svelte";
+    import { onMount } from "svelte";
     let profilePic;
-    (async () => {
+
+    onMount(async () => {
         let req = await fetch("https://api.github.com/users/dumbcache");
         let data = await req.json();
         profilePic = data["avatar_url"];
-    })();
+    });
 </script>
 
-<div id="about" class="about-wrapper">
-    <h1 class="title">MySelf</h1>
-    <div class="body">
+<section id="myself" class="myself-wrapper">
+    <header class="header">
+        <h1 class="title">MySelf</h1>
+    </header>
+    <div class="content">
         <div class="head">
             {#if profilePic}
                 <img src={profilePic} alt="profile pic" />
@@ -21,13 +25,11 @@
             <!-- <p>`` coding is fun 😁 ``</p> -->
         </div>
 
-        <div class="info">
-            <p>Hey there👋, Yesu here</p>
+        <aside class="tail">
+            <p>Hey there 👋 ,</p>
             <p>
-                I am Computer Science B.Tech graduate🧑‍🎓 from Vijayawada,
-                India. Currently working as software associate <small>
-                    (still web deveolper to core).
-                </small>
+                I am Computer Science B.Tech graduate🧑‍🎓 from Vijayawada, India.
+                I've got work experience of 2+ years.
             </p>
             <p>
                 I got interest in Web Development during the final year of my
@@ -36,22 +38,22 @@
                 choose this as my career".
             </p>
             <p>
-                From then, I started learning the core of the web fundamentals.
-                I work on both UI and Backend API's.
+                From then, I started learning Web. I work on both UI and Backend
+                API's.
             </p>
             <p>
                 View my projects <a href="https://github.com/dumbcache">
                     here<sub>
-                        {@html Icons.github()}
+                        {@html githubIcon()}
                     </sub>
                 </a>
             </p>
-        </div>
+        </aside>
     </div>
-</div>
+</section>
 
 <style>
-    .about-wrapper {
+    .myself-wrapper {
         /* border: 1px solid #000; */
         margin-top: 4rem;
     }
@@ -62,15 +64,17 @@
     }
     img {
         width: 300px;
-        height: 300px;
         border-radius: 50%;
     }
-    .body {
+    .head {
+        width: fit-content;
+    }
+    .content {
         display: flex;
         align-items: center;
         justify-content: center;
     }
-    .body > * {
+    .content > * {
         padding: 1rem;
     }
 
@@ -88,8 +92,12 @@
         color: blue;
     }
     @media (max-width: 800px) {
-        .body {
+        .content {
             flex-flow: row wrap;
+        }
+
+        img {
+            max-width: 70%;
         }
     }
 </style>

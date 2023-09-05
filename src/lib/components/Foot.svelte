@@ -2,26 +2,31 @@
     import { Icons } from "./Icons.svelte";
 </script>
 
-<div class="footer-wrapper">
+<footer class="footer-wrapper">
     <p>
         Develped by <span>Yesu G</span> <small>(MySelf)</small> using
 
         <span>
-            svelte<sub>{@html Icons.svelte("#444")} </sub>
+            <a href="https://kit.svelte.dev/">svelte</a><sub
+                >{@html Icons.svelte("#444")}
+            </sub>
         </span>
     </p>
-</div>
+</footer>
 
 <style>
     .footer-wrapper {
         text-align: center;
         margin-bottom: 4rem;
-        color: #888;
+        /* color: #000; */
     }
     small {
         font-size: xx-small;
     }
     span {
-        color: #000;
+        color: #f00;
+    }
+    a:hover {
+        color: #00f;
     }
 </style>

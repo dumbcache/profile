@@ -105,7 +105,7 @@
 		/></svg
 	>`;
 
-    const githubIcon = (color = "#000") => `<svg
+    export const githubIcon = (color = "#000") => `<svg
 		xmlns="http://www.w3.org/2000/svg"
 		x="0px"
 		y="0px"
@@ -245,13 +245,13 @@
     export const Icons = {
         html: htmlIcon,
         css: cssIcon,
-        react: reactIcon,
-        svelte: svelteIcon,
         javascript: jsIcon,
-         go: goIcon,
+        svelte: svelteIcon,
+        react: reactIcon,
+        go: goIcon,
         docker: dockerIcon,
-       // linux: linuxIcon,
-        git: gitIcon,
-        github: githubIcon,
+        // linux: linuxIcon,
+        // git: gitIcon,
+        // github: githubIcon,
     };
 </script>

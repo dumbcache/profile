@@ -3,7 +3,8 @@
     import Header from "$lib/components/Header.svelte";
     import Intro from "$lib/components/Intro.svelte";
     import TechStack from "$lib/components/TechStack.svelte";
-    import About from "$lib/components/About.svelte";
+    import Projects from "$lib/components/Projects.svelte";
+    import Myself from "$lib/components/Myself.svelte";
     import Contact from "$lib/components/Contact.svelte";
     import Foot from "$lib/components/Foot.svelte";
 </script>
@@ -12,7 +13,8 @@
     <Header />
     <Intro />
     <TechStack />
-    <About />
+    <Projects />
+    <Myself />
     <Contact />
     <Foot />
 </main>

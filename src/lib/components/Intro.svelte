@@ -2,20 +2,24 @@
     import { locationIcon1 } from "./Icons.svelte";
 </script>
 
-<div id="intro" class="intro-wrapper">
-    <div class="name">Yesu G,</div>
-    <div class="profession">
-        <div>Web</div>
-        Developer
+<section id="intro" class="intro-wrapper">
+    <header>
+        <h1 class="name">Yesu G,</h1>
+        <h2 class="profession">
+            <div>Web</div>
+            Developer
+        </h2>
+    </header>
+    <div class="content">
+        <div class="location">
+            {@html locationIcon1()} Vijayawada, India
+        </div>
+        <p class="intro">
+            ``` I'm a computer science graduate aspiring to become web and
+            mobile application developer ```
+        </p>
     </div>
-    <div class="location">
-        {@html locationIcon1()} Vijayawada, India
-    </div>
-    <p class="intro">
-        `` I'm a computer science graduate aspiring to become web and mobile
-        application developer ``
-    </p>
-</div>
+</section>
 
 <style>
     .intro-wrapper {
@@ -35,6 +39,7 @@
         font-size: 10vw;
         font-weight: 900;
         user-select: none;
+        font-family: poppins, sans-serif;
     }
     .name,
     .profession {

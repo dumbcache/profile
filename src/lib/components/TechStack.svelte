@@ -2,8 +2,10 @@
     import { Icons } from "./Icons.svelte";
 </script>
 
-<div id="skills" class="techstack-wrapper">
-    <h1 class="title">Skills</h1>
+<section id="skills" class="techstack-wrapper">
+    <header>
+        <h1 class="title">Skills</h1>
+    </header>
     <div class="stack">
         {#each Object.entries(Icons) as [name, icon]}
             <div class="skill">
@@ -14,7 +16,7 @@
             </div>
         {/each}
     </div>
-</div>
+</section>
 
 <style>
     .techstack-wrapper {
