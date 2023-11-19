@@ -27,13 +27,16 @@
             </p>
             <br />
             <p>
-                I got interest in Web Development during the final year of my
-                B.Tech. I am impressed and ashtonished by the web and how it
-                works and hooked onto a single thought that "I should definetly
-                choose this as my career". From then, I started learning Web.
+                I got interested in web development during the final year of my
+                B.Tech while working on a project. I am impressed and
+                ashtonished by the web, how it works and the potential impact.
+                From then, I started learning Web.
             </p>
             <br />
-            <p>I work on both UI and Backend API's.</p>
+            <p>
+                I work on both UI and Backend API's. I'm also delving into realm
+                of Hybrid mobile applications.
+            </p>
             <p>
                 View my projects <a href="https://github.com/dumbcache">
                     here<sub>

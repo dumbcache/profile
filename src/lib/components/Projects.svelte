@@ -22,6 +22,7 @@
             <section class="features">
                 <h5>features</h5>
                 <ul>
+                    <li>PWA support</li>
                     <li>Add URL's to images for easy bookmarking</li>
                     <li>Favourite your images for easy filter</li>
                     <li>Edit mode to easily update, move and delete</li>
