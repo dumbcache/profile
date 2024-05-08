@@ -23,7 +23,7 @@
         <p class="p2">get in touch through</p>
         <section class="social">
             <a href="https://twitter.com/yesu4658">{@html twitterIcon()}</a>
-            <a href="https://www.linkedin.com/in/yesu4658/"
+            <a href="https://www.linkedin.com/in/dumbcache/"
                 >{@html linkedInIcon()}</a
             >
             <a href="https://www.instagram.com/yesu4658/"
