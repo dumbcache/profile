@@ -11,10 +11,13 @@
         "preview": "vite preview"
     },
     "devDependencies": {
-        "@sveltejs/adapter-auto": "^2.0.0",
-        "@sveltejs/kit": "^1.20.4",
+        "@sveltejs/adapter-auto": "^3.0.0",
+        "@sveltejs/adapter-cloudflare": "^4.6.1",
+        "@sveltejs/kit": "^2.0.0",
+        "@sveltejs/vite-plugin-svelte": "^3.0.0",
         "svelte": "^4.0.5",
-        "vite": "^4.4.2"
+        "vite": "^5.0.0",
+        "wrangler": "^3.65.0"
     },
     "type": "module"
 }
