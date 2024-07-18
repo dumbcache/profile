@@ -247,7 +247,7 @@
         css: cssIcon,
         javascript: jsIcon,
         svelte: svelteIcon,
-        react: reactIcon,
+        // react: reactIcon,
         go: goIcon,
         docker: dockerIcon,
         // linux: linuxIcon,

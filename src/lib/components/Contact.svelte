@@ -1,10 +1,5 @@
 <script>
-    import {
-        linkedInIcon,
-        emailIcon,
-        twitterIcon,
-        instagramIcon,
-    } from "./Icons.svelte";
+    import { emailIcon } from "./Icons.svelte";
 </script>
 
 <section id="contact" class="contact-wrapper section">
@@ -20,16 +15,6 @@
                 dumbcache@gmail.com
             </div>
         </a>
-        <p class="p2">get in touch through</p>
-        <section class="social">
-            <a href="https://twitter.com/yesu4658">{@html twitterIcon()}</a>
-            <a href="https://www.linkedin.com/in/dumbcache/"
-                >{@html linkedInIcon()}</a
-            >
-            <a href="https://www.instagram.com/yesu4658/"
-                >{@html instagramIcon()}</a
-            >
-        </section>
     </div>
 </section>
 
